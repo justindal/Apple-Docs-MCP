@@ -46,5 +46,7 @@ Input:
 Output:
 - Up to 20 matches from the framework’s reference index.
 
-
-
+Acknowledgements:
+- [Apple Developer Documentation](https://developer.apple.com/documentation)
+- [Model Context Protocol](https://github.com/modelcontextprotocol/swift-sdk)
+- [Swift Service Lifecycle](https://github.com/swift-server/swift-service-lifecycle)
