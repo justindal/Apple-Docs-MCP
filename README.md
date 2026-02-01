@@ -1,6 +1,9 @@
 # Apple-Docs-MCP
 
-A (Model Context Protocol) server that fetches and formats Apple Developer Documentation.
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjustindal%2FApple-Docs-MCP%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/justindal/Apple-Docs-MCP)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjustindal%2FApple-Docs-MCP%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/justindal/Apple-Docs-MCP)
+
+A Model Context Protocol server that fetches and formats Apple Developer Documentation.
 
 ## Installation
 ### Homebrew
