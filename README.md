@@ -5,9 +5,11 @@ A (Model Context Protocol) server that fetches and formats Apple Developer Docum
 ## Run locally
 
 ```bash
-swift build
+swift build -c release
 swift run Apple-Docs-MCP
 ```
+
+The executable can be found in the `.build/release` directory.
 
 ## Example client configuration
 
@@ -17,7 +19,7 @@ Point the client at the built executable. For example:
 {
   "mcpServers": {
     "apple-docs": {
-      "command": "Apple-Docs-MCP"
+      "command": "/path/to/Apple-Docs-MCP"
     }
   }
 }
@@ -46,7 +48,7 @@ Input:
 Output:
 - Up to 20 matches from the framework’s reference index.
 
-Acknowledgements:
+## Acknowledgements:
 - [Apple Developer Documentation](https://developer.apple.com/documentation)
 - [Model Context Protocol](https://github.com/modelcontextprotocol/swift-sdk)
 - [Swift Service Lifecycle](https://github.com/swift-server/swift-service-lifecycle)
