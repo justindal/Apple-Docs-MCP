@@ -22,7 +22,7 @@ The executable can be found in the `/opt/homebrew/Cellar/apple-docs-mcp-server/{
 git clone https://github.com/justindal/Apple-Docs-MCP.git
 cd Apple-Docs-MCP
 swift build -c release
-swift run Apple-Docs-MCP
+swift run -c
 ```
 
 The executable can be found in the `.build/release` directory.
