@@ -2,9 +2,25 @@
 
 A (Model Context Protocol) server that fetches and formats Apple Developer Documentation.
 
-## Run locally
+## Installation
+### Homebrew
 
 ```bash
+brew tap justindal/apple-docs-mcp
+brew install apple-docs-mcp-server
+```
+The executable can be found in the `/opt/homebrew/Cellar/apple-docs-mcp-server/{VERSION}/bin` directory.
+
+### Build from source
+
+#### Prerequisites
+- Swift 6.0+
+- Xcode 16+
+- macOS 13.0+
+
+```bash
+git clone https://github.com/justindal/Apple-Docs-MCP.git
+cd Apple-Docs-MCP
 swift build -c release
 swift run Apple-Docs-MCP
 ```
